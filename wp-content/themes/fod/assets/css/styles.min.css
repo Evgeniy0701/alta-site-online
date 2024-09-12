@@ -231,6 +231,19 @@ html {
 
 a {
   text-decoration: none;
+  color: black;
+  display: block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 15px;
+    text-decoration: none;
+    text-transform: none;
+    color: #000000;
+    cursor: pointer;
+    -webkit-transition: 250ms ease-in-out;
+    transition: 250ms ease-in-out;
+    margin-top: 0px;
 }
 
 a:focus {
@@ -4183,7 +4196,9 @@ select {
   padding: 5px 10px;
   border-bottom: 1px solid #EAEAEA;
 }
-
+.screen-reader-text{
+  color: #000000;
+}
 .price-cost {
   font-family: 'Gilroy';
   font-style: normal;
