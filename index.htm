@@ -682,7 +682,7 @@
       }
       div#n2-ss-5 .n2-font-fce1c97cc8221d2e6255536e94460782-hover {
         font-family: "Gilroy";
-        color: #090303;
+        color: #ffd738;
         font-size: 225%;
         text-shadow: none;
         line-height: 1.2;
@@ -720,7 +720,7 @@
       }
       div#n2-ss-5 .n2-font-40ae4a1df2df5501120154f12512ce71-link a {
         font-family: "Gilroy";
-        color: #ffffff;
+        color: #ffd738;
         font-size: 87.5%;
         text-shadow: none;
         line-height: 1.5;
@@ -734,13 +734,14 @@
         font-weight: 600;
       }
       div#n2-ss-5 .n2-style-dd185d1e31e838aaeb4988c32f99e919-heading {
-        background: RGBA(255, 255, 255, 0);
+        background: rgba(255, 255, 255, 0); /* прозорий фон, якщо це потрібно */
         opacity: 1;
-        padding: 10px 30px 10px 30px;
+        padding: 10px 30px;
         box-shadow: none;
-        border: 1px solid RGBA(0, 0, 0, 1);
+        border: 1px solid #ffd738; /* виправлено на жовтий контур */
         border-radius: 0px;
       }
+      
       div#n2-ss-5 .n-uc-UEwFZfTHBktb-inner {
         border-width: 0px 0px 0px 0px;
         border-style: solid;
@@ -2183,7 +2184,7 @@
                               >
                                 <picture class="skip-lazy" data-skip-lazy="1"
                                   ><img
-                                    src="wp-content/uploads/2020/10/stock-photo--step-program-group-supporting-depressed-man-with-alcoholism-problem-in-rehab-center-panorama-1610191027-transformed-transformed.jpeg.webp,qitok=40P5QBVm.pagespeed.c.webp"
+                                    src="wp-content/uploads/2020/10/IMG_4626.PNG"
                                     alt=""
                                     title=""
                                     loading="lazy"
@@ -2214,7 +2215,7 @@
                               >
                                 <picture class="skip-lazy" data-skip-lazy="1"
                                   ><img
-                                    src="wp-content/uploads/2020/10/stock-photo--step-program-group-supporting-depressed-man-with-alcoholism-problem-in-rehab-center-panorama-1610191027-transformed-transformed.jpeg.webp,qitok=40P5QBVm.pagespeed.c.webp"
+                                    src="wp-content/uploads/2020/10/IMG_4626.PNG"
                                     title=""
                                     loading="lazy"
                                     class="skip-lazy"
@@ -4014,13 +4015,15 @@
                     class="form-input"
                     aria-required="true"
                     aria-invalid="false"
-                    placeholder="Номер телефону"
-                    value=""
+                    placeholder=""
+                    value="+38(0)"
                     type="tel"
                     name="tel"
                     required
+                    id="phone-input"
                   />
                 </p>
+                
                 <p>
                   <textarea
                     cols="40"
